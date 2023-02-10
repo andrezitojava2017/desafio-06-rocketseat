@@ -6,7 +6,7 @@ const InfoPassenger = () => {
     <Box
       background="#FFFFFF"
       marginX="8"
-      borderRadius="12"
+      borderRadius="20"
       paddingX="8"
       paddingY="6">
       <HStack display="flex" justifyContent="space-between">

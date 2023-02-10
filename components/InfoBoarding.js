@@ -5,12 +5,12 @@ import QRCode from 'react-native-qrcode-svg';
 const InfoBoarding = () => {
   return (
     <Box
-      borderStyle="dashed"
-      borderColor="#C0C0C0"
-      borderWidth="0.5"
+      borderTopStyle="dashed"
+      borderTopColor="#C0C0C0"
+      borderTopWidth="2"
       background="#FFFFFF"
       marginX="8"
-      borderRadius="15"
+      borderRadius="20"
       paddingX="4"
       paddingY="4">
       <HStack display="flex" justifyContent="space-between">
@@ -19,7 +19,7 @@ const InfoBoarding = () => {
             Embarque
           </Text>
           <Box
-            background="#996DFF"
+            background="#633BBC"
             borderRadius="lg"
             alignItems="center"
             marginBottom="2">

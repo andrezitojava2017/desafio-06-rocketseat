@@ -1,15 +1,16 @@
 import React from 'react';
 import {Box, Text, HStack} from 'native-base';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 const FlightInfo = () => {
   return (
     <Box
-      borderStyle="dashed"
-      borderColor="#C0C0C0"
-      borderWidth="0.5"
+      borderBottomStyle="dashed"
+      borderBottomColor="#C0C0C0"
+      borderBottomWidth="2"
       background="#FFFFFF"
       marginX="8"
-      borderRadius="15"
+      borderRadius="20"
       paddingX="4"
       paddingY="6">
       <HStack display="flex" justifyContent="space-between">
@@ -45,8 +46,17 @@ const FlightInfo = () => {
         <Text fontSize="32" fontFamily="Rubik-Bold">
           SJX
         </Text>
+
         <Text fontSize="32" fontFamily="Rubik-Bold">
           SJRP
+        </Text>
+      </HStack>
+      <HStack justifyContent="space-between">
+        <Text fontSize="14" color="#696969" fontFamily="Rubik-Bold">
+          10:00 <Icon name="flight-takeoff" size={20} color="#633BBC" />
+        </Text>
+        <Text fontSize="14" color="#696969" fontFamily="Rubik-Bold">
+          00:30 <Icon name="flight-land" size={20} color="#633BBC" />
         </Text>
       </HStack>
     </Box>
